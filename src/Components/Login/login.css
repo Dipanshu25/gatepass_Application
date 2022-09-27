@@ -1,0 +1,118 @@
+
+
+
+
+.login_div {
+    
+    background: rgb(244, 245, 243);
+    background: linear-gradient(135deg, rgb(193, 235, 235) 0%,     rgb(228, 222, 207) 100%);
+    font-family: "work sans";
+  
+    max-width: 500px;
+    min-width: 300px;
+    max-height: 700px;
+    width: 30%;
+    height: 60%;
+    margin: 100px auto;
+    background-color: #191717;
+    border-radius: 5px;
+    margin-top:150px;
+ 
+}
+.main-Image{
+    width: 100%;
+    background: url("./main5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+/* .logo {
+    background: url("download.png");
+    text-align:left;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 25px auto;
+    box-shadow: 8px 0px 2px #5f5f5f, 8px 8px 10px #a7aaaf, -8px -8px 15px #ffffff;
+} */
+
+.login_content {
+    max-width: 400px;
+    margin: 0 auto;
+    width: 100%; 
+}
+
+.spacer {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    padding: 0.5em 2em; 
+}
+
+.spacer-2 {
+    padding: 1em 2em; 
+}
+.login_content label {
+    width: 100%;
+    font-size: 15px;
+    float: none;
+    clear: both;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 0 5px;
+}
+
+.login_content input[type="email"],.login_content input[type="name"], .login_content input[type="password"]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+
+.signin-button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Trebuchet MS", arial, verdana, sans-serif;
+    color: #fff;
+    text-align: center;
+    background: rgb(14, 14, 14);
+    background-image: linear-gradient(to bottom,#444745,#171818);
+    background-repeat: repeat-x;
+    box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #ffffff;
+    transition: 0.5s;
+}
+
+.forgot_pass {
+    text-align: center;
+}
+
+.link-color {
+    cursor: pointer;
+    color: #216eb9;
+}
+
+.login_divider {
+    border-top: 1px solid #dadada;
+}
+.ui_msg{
+    color:rgb(241, 131, 131);
+    text-align: center;
+    text-underline-position: below;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: "Trebuchet MS", arial, verdana, sans-serif;
+    
+}

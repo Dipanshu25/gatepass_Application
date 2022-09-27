@@ -1,0 +1,13 @@
+.container {
+    padding-top: 120px;
+    height: 90%;
+    background-color: rgb(161, 220, 232)
+    
+}
+
+.headText {
+    margin-bottom: 10px !important;
+    text-decoration: solid;
+    color: dimgray;
+    
+}
